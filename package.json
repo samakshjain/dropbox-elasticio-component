@@ -14,10 +14,7 @@
   "dependencies": {
     "elasticio-node": "0.0.5",
     "elasticio-sailor-nodejs": "1.2.0",
-    "google-auth-library": "^0.9.7",
-    "googleapis": "^4.0.0",
     "q": "^1.4.1",
-    "request": "^2.69.0",
     "request-promise": "2.0.1"
   }
 }
