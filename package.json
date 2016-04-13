@@ -1,0 +1,23 @@
+{
+  "name": "Aplynk-Dropbox-component",
+  "version": "0.0.1",
+  "description": "Elasticio component for Dropbox",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:samakshjain/dropbox-elasticio-component.git"
+  },
+  "author": "Samaksh Jain",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "elasticio-node": "0.0.5",
+    "elasticio-sailor-nodejs": "1.2.0",
+    "google-auth-library": "^0.9.7",
+    "googleapis": "^4.0.0",
+    "q": "^1.4.1",
+    "request": "^2.69.0",
+    "request-promise": "2.0.1"
+  }
+}

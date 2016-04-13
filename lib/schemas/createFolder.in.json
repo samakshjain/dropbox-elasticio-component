@@ -1,0 +1,25 @@
+{
+	"type": "object",
+	"properties": {
+		"leadId": {
+			"type": "string",
+			"title": "Lead Id"
+		},
+		"leadName": {
+			"type": "string",
+			"title": "Lead Name"
+		},
+		"ownerId": {
+			"type": "string",
+			"title": "Owner Id"
+		},
+		"ownerName": {
+			"type": "string",
+			"title": "Owner Name"
+		},
+		"ownerEmail": {
+			"type": "string",
+			"title": "Owner Email"
+		}
+	}
+}

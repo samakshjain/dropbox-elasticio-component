@@ -1,0 +1,34 @@
+{
+    "title": "Dropbox",
+    "description": "Dropbox Component for Aplynk",
+    "env": [
+        "DROPBOX_APP_KEY",
+        "DROPBOX_APP_SECRET"
+    ],
+    "credentials" : {
+        "fields":{
+            "oauth":{
+                "label":"Authentication",
+                "viewClass":"OAuthFieldView",
+                "required":true
+            }
+        },
+        "oauth2":{
+            "client_id":"{{DROPBOX_APP_KEY}}",
+            "client_secret":"{{DROPBOX_APP_SECRET}}",
+            "auth_uri":"https://www.dropbox.com/1/oauth2/authorize",
+            "token_uri":"https://www.dropbox.com/1/oauth2/token"
+        }
+    },
+    "actions": {
+        "createFolder": {
+            "main": "./lib/actions/createFolder.js",
+            "type": "polling",
+            "title": "zCrm Folder",
+            "metadata": {
+                "in": "./lib/schemas/createFolder.in.json",
+                "out": "./lib/schemas/createFolder.out.json"
+            }
+        }
+    }
+}

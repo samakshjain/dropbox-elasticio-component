@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string",
+            "title": "Id"
+        },
+        "lead_id": {
+            "type": "string",
+            "title": "Lead Id"
+        },
+        "url": {
+            "type": "string",
+            "title": "Url"
+        }
+    }
+}
