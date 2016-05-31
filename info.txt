@@ -1,0 +1,25 @@
+check if root folder is there :
+	EXISTS:
+		check if sub folder is there:
+			EXISTS:
+				Your work is done here
+			DNE:
+				Create sub Folder
+				Return some data
+	DNE:
+		1. create root folder
+			1.a. create sub folder
+		2. make root folder Shareable
+		3. share it
+		4. Return some data
+
+// optimized pseudo code #2
+check if /root/sub exists:
+	EXISTS:
+		Your work is done here
+	DNE:
+		create /root/sub
+		get root folder Id
+		make it shareable
+		share it
+		return relevant data

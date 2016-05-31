@@ -1,0 +1,10 @@
+env:
+  browser: false
+  node: true
+extends: airbnb
+installedESLint: true
+plugins:
+  - react
+rules:
+  no-console: 0
+  max-len: 0

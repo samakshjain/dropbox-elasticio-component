@@ -5,6 +5,9 @@
   "scripts": {
     "test": "exit 0"
   },
+  "engines": {
+    "node": "6.0.0"
+  }
   "repository": {
     "type": "git",
     "url": "git@github.com:samakshjain/dropbox-elasticio-component.git"
@@ -17,5 +20,10 @@
     "q": "^1.4.1",
     "request": "^2.72.0",
     "request-promise": "^2.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^2.11.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-react": "^5.1.1"
   }
 }
